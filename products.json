@@ -1,0 +1,107 @@
+[
+    {
+        "id": 1,
+        "name": "CREATINA(CAPSULAS)",
+        "price": 200,
+        "image": "./img/CreatinaCapsulas.jpg",
+        "description": "La creatina es un suplemento eficaz para mejorar el rendimiento físico, aumentar la masa muscular y acelerar la recuperación. También tiene numerosos beneficios para la salud general, incluyendo la función cognitiva, la protección neurológica, la salud muscular en adultos mayores y la función cardiovascular."
+    },
+    {
+        "id": 2,
+        "name": "CREATINA(MANZANA)",
+        "price": 200,
+        "image": "./img/CreatinaManzana.jpg",
+        "description": "La creatina es un suplemento eficaz para mejorar el rendimiento físico, aumentar la masa muscular y acelerar la recuperación. También tiene numerosos beneficios para la salud general, incluyendo la función cognitiva, la protección neurológica, la salud muscular en adultos mayores y la función cardiovascular."
+    },
+    {
+        "id": 3,
+        "name": "CREATINA(NARANJA)",
+        "price": 300,
+        "image": "./img/creatinaNaranja.jpg",
+        "description": "La proteína es esencial para el crecimiento y la reparación muscular, ideal para quienes buscan aumentar su masa muscular y mejorar su recuperación post-entrenamiento."
+    },
+    {
+        "id": 4,
+        "name": "PREENTRENO(NARANJA)",
+        "price": 550,
+        "image": "./img/Pre-entrenoNaranja.jpg",
+        "description": "El pre-entreno está diseñado para aumentar la energía, la concentración y el rendimiento durante los entrenamientos intensos."
+    },
+    {
+        "id": 5,
+        "name": "OMEGA 3",
+        "price": 550,
+        "image": "./img/Omega3.jpg",
+        "description": "El omega 3 es conocido por sus beneficios para la salud del corazón, la reducción de la inflamación y la mejora de la función cerebral."
+    },
+    {
+        "id": 6,
+        "name": "VITAMINAS(FRESA)",
+        "price": 300,
+        "image": "./img/VitaminasFresa.jpg",
+        "description": "Las vitaminas son esenciales para el correcto funcionamiento del cuerpo, apoyando el sistema inmunológico, la salud ósea y el bienestar general."
+    },
+    {
+        "id": 7,
+        "name": "BCAA(CEREZA)",
+        "price": 550,
+        "image": "./img/bcaaCereza.jpg",
+        "description": "Los BCAA (aminoácidos de cadena ramificada) ayudan a reducir la fatiga muscular, mejorar la recuperación y aumentar la síntesis de proteínas musculares."
+    },
+    {
+        "id": 8,
+        "name": "BCAA(SANDIA)",
+        "price": 550,
+        "image": "./img/bcaaSandia.jpg",
+        "description": "Los BCAA (aminoácidos de cadena ramificada) ayudan a reducir la fatiga muscular, mejorar la recuperación y aumentar la síntesis de proteínas musculares."
+    },
+    {
+        "id": 9,
+        "name": "CAFEINA",
+        "price": 550,
+        "image": "./img/cafeina.jpg",
+        "description": "La cafeína es un estimulante eficaz para aumentar la energía, la concentración y el rendimiento físico durante los entrenamientos."
+    },
+    {
+        "id": 10,
+        "name": "GLUTAMINA(MANGO)",
+        "price": 550,
+        "image": "./img/glutaminaMango.jpg",
+        "description": "La glutamina es un aminoácido que ayuda en la recuperación muscular, mejora la función inmunológica y apoya la salud intestinal."
+    },
+    {
+        "id": 11,
+        "name": "PREENTRENO(BLUEBERRIE)",
+        "price": 550,
+        "image": "./img/blueberries.jpg",
+        "description": "El pre-entreno está diseñado para aumentar la energía, la concentración y el rendimiento durante los entrenamientos intensos."
+    },
+    {
+        "id": 12,
+        "name": "VITAMINAS(HIERBAS)",
+        "price": 300,
+        "image": "./img/VitaminasHierbasVerdes.jpg",
+        "description": "Las vitaminas son esenciales para el correcto funcionamiento del cuerpo, apoyando el sistema inmunológico, la salud ósea y el bienestar general."
+    },
+    {
+        "id": 13,
+        "name": "VITAMINAS(MANGO)",
+        "price": 300,
+        "image": "./img/VitaminasMango.jpg",
+        "description": "Las vitaminas son esenciales para el correcto funcionamiento del cuerpo, apoyando el sistema inmunológico, la salud ósea y el bienestar general."
+    },
+    {
+        "id": 14,
+        "name": "VITAMINAS(UVA)",
+        "price": 300,
+        "image": "./img/VitaminasUva.jpg",
+        "description": "Las vitaminas son esenciales para el correcto funcionamiento del cuerpo, apoyando el sistema inmunológico, la salud ósea y el bienestar general."
+    },
+    {
+        "id": 15,
+        "name": "VITAMINAS(FRAMBUESA)",
+        "price": 300,
+        "image": "./img/VitaminasFrambuesa.jpg",
+        "description": "Las vitaminas son esenciales para el correcto funcionamiento del cuerpo, apoyando el sistema inmunológico, la salud ósea y el bienestar general."
+    }
+]

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actualizar Cliente</title>
+</head>
+<body>
+    <div class="wrapper">
+        <h1 align="center">Actualizar Cliente</h1>
+        <form action="../php/actualizarUsuario.php" method="post">
+            <div class="input-box">
+                <label for='nombre_dieta'>Usuario:</label>
+                <input type='text' id='nomu' name='nomu'>
+            </div>
+            <div class="input-box">
+                <label for='descripcion'>Nombre Cliente:</label>
+                <input type="text" id='nom' name='nom'>
+            </div>
+            <div class="input-box">
+                <label for='descripcion'>Apellido Paterno:</label>
+                <input type="text" id='app' name='app'>
+            </div>
+            <div class="input-box">
+                <label for='descripcion'>Apellido Materno:</label>
+                <input type="text" id='apm' name='apm'>
+            </div>
+            <div class="input-box">
+                <label for='descripcion'>Correo:</label>
+                <input type="text" id='correo' name='correo'>
+            </div>
+            <div class="input-box">
+                <label for='descripcion'>Telefono Celular</label>
+                <input type="text" id='cel' name='cel'>
+            </div>
+            <div class="input-box">
+                <label for='descripcion'>Fecha Nacimiento</label>
+                <input type="date" id='fechaN' name='fechaN'>
+            </div>
+            <div class="input-box">
+                <label for='descripcion'>Genero</label>
+                <input type="text" id='sexo' name='sexo'>
+            </div>
+            <div class="input-box">
+                <label for='descripcion'>Contraseña</label>
+                <input type="text" id='pass' name='pass'>
+            </div>
+            <div>
+                <br><button class="btn" type='submit' name='accion' value='Actualizar'>Actualizar</button> 
+            </div>
+        </form>
+        </div>
+</body>
+</html>

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../styleNut.css">
+    <title>Gestor de Dietas</title>
+</head>
+<body>
+    <div class="wrapper">
+    <h1 align="center">Asignar Dieta</h1>
+    <form method='POST' action='../nutricionista php/asignarDieta.php'>
+        <div class="input-box">
+            <label for='id_cliente'>Nombre Cliente:</label>
+            <input type='text' name='nombreu'> 
+        </div>
+        <div class="input-box">
+            <label for='id_dieta'>Apellido Paterno:</label>
+            <input type='text' name='app'> 
+        </div>
+        <div class="input-box">
+            <label for='nombre_dieta'>Nombre de la Dieta:</label>
+            <input type='text' id='nombre_dieta' name='nombre_dieta' required>   
+        </div>
+        <div class="input-box">
+            <label for='descripcion'>Descripción:</label>
+            <input type="text" id='descripcion' name='descripcion' required>
+        </div>
+        <div>
+            <br><button class="btn" type='submit' name='accion' value='Guardar Dieta'>Guardar Dieta</button> 
+        </div>
+    </form>
+    </div>
+</body>
+</html>

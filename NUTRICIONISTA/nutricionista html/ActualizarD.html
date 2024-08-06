@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../styleNut.css">
+    <title>Gestion de Dietas</title>
+</head>
+<body>
+    <div class="wrapper">
+    <h1 align="center">Actualizar Dieta</h1>
+    <form action="../nutricionista php/actualizarDieta.php" method="post">
+        <div class="input-box">
+            <label for='id_dieta'>ID de la Dieta:</label>
+            <input type='text' id='id_dieta' name='id_dieta' required>
+        </div>
+        <div class="input-box">
+            <label for='nombre_dieta'>Nombre de la Dieta:</label>
+            <input type='text' id='nombre_dieta' name='nombre_dieta'>
+        </div>
+        <div class="input-box">
+            <label for='descripcion'>Descripción:</label>
+            <input type="text" id='descripcion' name='descripcion'>
+        </div>
+        <div>
+            <br><button class="btn" type='submit' name='accion' value='Actualizar Dieta'>Guardar Dieta</button> 
+        </div>
+    </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="../style_interfaces.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <script>
+        function redirigir(event) {
+            event.preventDefault(); // Evita el envío del formulario
+            window.location.href = 'index.html'; // Redirige a otra página
+        }
+    </script>
+
+</head>
+
+<body>
+    <div class="wrapper">
+        <table>
+            <form action="" onsubmit="redirigir(event)">
+                <h1>Formulario</h1>
+                <h3>Información del Cliente</h3>    
+                <tr>
+                    <td>
+                        <label for="">¿Cuál es tú edad? </label><input type="number" min="18"><br><br>
+                        <label for="">¿Cuál es tú género? </label><br> Masculino<input type="checkbox"><br> Femenino<input type="checkbox"><br><br>
+                        <label for="">¿Cuánto pesas? (Kg) </label><input type="number"><br><br>
+                        <label for="">¿Cuál es tú talla? </label><input type="number" ><br><br>
+                        <label for="">¿Eres alergico a algo? Si</label><input type="checkbox"> No<input type="checkbox"></label><br>
+                        <label for="">¿A que? </label><input type="text"><br><br>
+                        <label for="">¿Cuentas con una dieta?</label>Si<input type="checkbox"> No<input type="checkbox"><br><br>
+                        <label for="">¿Cuentas con alguna enfermedad crónica?</label> Si<input type="checkbox"> No <input type="checkbox"><br>
+                        <label for="">¿Cuál? </label><input type="text"><br><br>
+                        <label for="objetivo">Objetivo</label>
+                        <select name="Objetivo" id="objetivoSelect" onchange="guardarObjetivoSeleccionado(event)">
+                            <option value=""></option>
+                            <option value="gananciaMuscular">Ganancia Muscular</option>
+                            <option value="definicion">Definición</option>
+                            <option value="condicionFisica">Condición Física</option>
+                            <option value="cuerpoSaludable">Cuerpo Saludable</option>
+                        </select><br><br>
+                        <label for="">¿Realizas actividad deportiva? </label> Si <input type="checkbox"> No <input type="checkbox"><br>
+                        <label for="">¿Cuál? </label><input type="text"><br><br>
+                        <label for="">¿Cuántos días a la semana realizas actividad deportiva? </label>
+                        <input type="number" min="1" max="7"><br><br>
+                        <label for="">¿En cuánto tiempo quiere ver resultados? </label><input type="text"><br><br>
+                        <div class="input-clear">
+                            <input type="reset" value="Limpiar">
+                        </div><br>
+                        <div class="siguiente2-link">
+                            <button class="btn" type="submit">Siguiente</button>
+                        </div>
+                    </td>
+                </tr>
+            </form>
+        </table>
+    </div>
+
+    <script>
+        function guardarObjetivoSeleccionado(event) {
+            const objetivoSeleccionado = event.target.value;
+            localStorage.setItem('objetivoSeleccionado', objetivoSeleccionado);
+            highlightProducts(objetivoSeleccionado);
+        }
+    </script>
+</body>
+</html>

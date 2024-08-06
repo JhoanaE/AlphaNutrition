@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="../styleNut.css">
+    <title>Gestor de Dietas</title>
+</head>
+<body>
+    <div class="wrapper">
+    <h1 align="center">Eliminar Dieta</h1>
+    <form method='POST' action='../nutricionista php/eliminarDieta.php'>
+        <div class="input-box">
+            <label for='id_dieta'>ID de la Dieta:</label>
+            <input type='text' id='id_dieta' name='id_dieta' required>
+        </div>
+        <div>
+           <br><button class="btn" type='submit'>Eliminar Dieta</button>
+        </div>
+    </form>
+    </div>
+</body>
+</html>

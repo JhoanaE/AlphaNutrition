@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nueva Contraseña</title>
+    <link rel="stylesheet" href="../style_interfaces.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    
+    <script>
+        function validarFormulario() {
+            // Validación de contraseñas (ejemplo si hubiera contraseñas)
+            const password = document.getElementById('password');
+            const confirmPassword = document.getElementById('confirmPassword');
+            if (password && confirmPassword && password.value !== confirmPassword.value) {
+                alert('Las contraseñas no coinciden.');
+                return false; // Impide el envío del formulario
+            }
+            return true;
+        }
+
+        function redirigir() {
+            window.location.href = 'inicio_sesion.html'; // Redirige a otra página
+        }
+
+        function manejarSubmit(event) {
+            if (!validarFormulario()) {
+                event.preventDefault(); // Evita el envío del formulario si la validación falla
+                return;
+            }
+
+            event.preventDefault(); // Evita el envío del formulario por defecto
+            redirigir(); // Realiza la redirección
+        }
+    </script>
+
+</head>
+<body>
+
+    <div class="wrapper">
+
+        <form action="" onsubmit="manejarSubmit(event)">
+
+            <h1>Nueva Contraseña</h1>
+
+            <div class="input-box">
+            <input type="password" id="password" placeholder="Contraseña" required>
+            <i class='bx bxs-lock-alt'></i>
+            </div>
+
+            <div class="input-box">
+            <input type="password" id="confirmPassword" placeholder="Confirmar contraseña" required>
+            <i class='bx bxs-lock-alt'></i>
+            </div>
+
+            <button class="btn" type="submit">Guardar Cambios</button>
+
+            </div>
+            
+        </form>
+
+    </div>
+
+</body>
+</html>

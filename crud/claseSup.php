@@ -31,4 +31,5 @@ class SupAlta{
     }
     
 }
-//$objSupnat = new SupAlta(1,'DorianSD','Dorian','Espinoza','Marquez','dorian@gmail.com',554848,'29/06/24','M','dorian1');?>
+//$objSupnat = new SupAlta(1,'DorianSD','Dorian','Espinoza','Marquez','dorian@gmail.com',554848,'29/06/24','M','dorian1');
+?>
